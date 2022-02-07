@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+    <head>
+        <title>Calculadora</title>
+        <link rel="stylesheet" href="css/index.css">
+        
+    </head>
+    <body>
+       
+        <h1 class="centro"> Calculadora</h1>
+       
+ 
+        <div id="cuerpo" class="centro">
+            <!-- Muestra el resultado-->
+            <div id="mostrar">
+                <p id="calculo">0</p>
+            </div>
+
+            <!-- botones -->
+
+            <button onclick="operacion('C');">C</button>
+            <button>+/-</button>
+            <button>%</button>
+            <button onclick="operacion('/');">/</button>
+            <button onclick="presionar(7);" > 7</button>  
+            <button onclick="presionar(8);" >8</button>
+            <button onclick="presionar(9);" >9</button>
+            <button onclick="operacion('*');">*</button>
+            <button onclick="presionar(4);" >4</button>
+            <button onclick="presionar(5);" >5</button>
+            <button onclick="presionar(6);" >6</button>  
+            <button onclick="operacion('-');" >-</button>
+            <button onclick="presionar(1);" >1</button>
+            <button onclick="presionar(2);" >2</button>
+            <button onclick="presionar(3);" >3</button>
+            <button onclick="operacion('+');">+</button>
+            <button onclick="presionar(0);" Id="zero" >0</button>
+            <button onclick="presionar('.')">.</button>
+            <button onclick="operacion('=');">=</button>
+           
+            
+
+        </div>
+
+      
+            <h2 >Historia</h2>
+                <p id="show">0</p>
+                <button onclick="clean();"> clear</button>
+            
+       
+        <script src="js/index.js"></script>
+
+    </body>
+
+</html> 

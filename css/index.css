@@ -1,0 +1,62 @@
+#historia{
+    width: 200px;
+    height: 350px;
+    background-color:aqua;
+    
+}
+
+h2{
+    display: inline;
+}
+
+h1{
+    width: 100px;
+    
+}
+
+
+div{
+
+    width: 420px;
+    height: 600px;
+    background-color: rgb(66, 218, 205);
+    border-width: 10px;
+    
+}
+
+.centro{
+    margin: 20px auto;
+}
+
+#mostrar{
+    background-color: white;
+    width: 400px;
+    height: 75px;
+    border: 10px;
+    border-style:solid;
+}
+
+button{
+    height: 100px;
+    width: 100px;
+    border-bottom-width: 10px;
+    display: inline-block;
+    margin-left: 1.5px;
+    
+    
+
+}
+button:hover{
+    border-bottom-width: 0px;
+    padding-bottom: 10px;
+    
+}
+
+#zero{
+    width: 205px;
+}
+
+#calculo {
+    text-align: right;
+    font-size: xx-large;
+}
